@@ -1,27 +1,37 @@
 {
-  "expo": {
-    "name": "Exclusive_2",
-    "slug": "Exclusive_2",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+	"expo": {
+		"name": "Exclusive",
+		"slug": "Exclusive_2",
+		"version": "3.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/EMADragonLogo.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/images/Splash-app.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#0045b5"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.myoung9300.emaapp2",
+			"buildNumber": "6"
+		},
+		"android": {
+			"versionCode": 31,
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/EMADragonLogo.png",
+				"backgroundColor": "#0045b5"
+			},
+			"package": "com.myoung9300.emaapp2"
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "1d1dfc25-28fb-4c61-a594-db77a23cc603"
+			}
+		},
+		"plugins": ["expo-font"]
+	}
 }
