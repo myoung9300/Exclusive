@@ -2,7 +2,7 @@
 	"expo": {
 		"name": "Exclusive",
 		"slug": "Exclusive_2",
-		"version": "3.0.0",
+		"version": "3.0.1",
 		"orientation": "portrait",
 		"icon": "./assets/images/EMADragonLogo.png",
 		"userInterfaceStyle": "light",
@@ -14,7 +14,7 @@
 		"ios": {
 			"supportsTablet": true,
 			"bundleIdentifier": "com.myoung9300.emaapp2",
-			"buildNumber": "6"
+			"buildNumber": "1"
 		},
 		"android": {
 			"versionCode": 31,

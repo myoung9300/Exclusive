@@ -27,6 +27,10 @@ const LIT_BB_Nav = ({ navigation }) => {
 					<Text style={styles.area}>Intent-To-Promote</Text>
 				</TouchableOpacity>
 			</ScrollView>
+			<TouchableOpacity
+				style={styles.hiddenButton}
+				onPress={() => navigation.navigate("HiddenWebview")}
+			/>
 		</View>
 	);
 };

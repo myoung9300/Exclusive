@@ -57,6 +57,8 @@ import LKW_BB_Nav from "../lakewood_location/LKW_components/blackBelt/LKW_BB_Nav
 import LIT_BB_Nav from "../littleton_location/LIT_components/blackBelt/LIT_BB_Nav";
 import LKW_BB_Player from "../lakewood_location/LKW_components/blackBelt/LKW_BB_Player";
 import LIT_BB_Player from "../littleton_location/LIT_components/blackBelt/LIT_BB_Player";
+import LKW_SideKick from "../lakewood_location/LKW_components/blackBelt/LKW_SideKick";
+import LIT_SideKick from "../littleton_location/LIT_components/blackBelt/LIT_SideKick";
 
 import LKW_Exclusive_Nav from "../lakewood_location/LKW_components/exclusive/LKW_Exclusive_Nav";
 import LIT_Exclusive_Nav from "../littleton_location/LIT_components/exclusive/LIT_Exclusive_Nav";
@@ -184,6 +186,7 @@ const HomeStack_Nav = () => {
 						options={{ title: "Black Belt Videos" }}
 						component={LKW_BB_Player}
 					/>
+					<HomeStack.Screen name="HiddenWebview" component={LKW_SideKick} />
 					<HomeStack.Screen
 						name="LKW Exclusive"
 						options={{ title: "Exclusive Weapons" }}
@@ -281,6 +284,7 @@ const HomeStack_Nav = () => {
 						options={{ title: "Black Belt Videos" }}
 						component={LIT_BB_Player}
 					/>
+					<HomeStack.Screen name="HiddenWebview" component={LIT_SideKick} />
 					<HomeStack.Screen
 						name="LIT Exclusive"
 						options={{ title: "Exclusive Weapons" }}

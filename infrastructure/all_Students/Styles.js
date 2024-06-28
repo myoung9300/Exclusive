@@ -158,6 +158,14 @@ const styles = StyleSheet.create({
 		fontSize: 14,
 		color: COLORS.mediumGrey,
 	},
+	hiddenButton: {
+		position: "absolute",
+		bottom: 20,
+		right: 10,
+		width: 10,
+		height: 10,
+		backgroundColor: "transparent", // Make the button invisible
+	},
 });
 
 export default styles;
