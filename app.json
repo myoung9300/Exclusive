@@ -17,7 +17,7 @@
 			"buildNumber": "1"
 		},
 		"android": {
-			"versionCode": 31,
+			"versionCode": 32,
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/images/EMADragonLogo.png",
 				"backgroundColor": "#0045b5"
