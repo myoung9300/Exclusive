@@ -92,7 +92,7 @@ android {
         applicationId 'com.myoung9300.emaapp2'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 32
+        versionCode 34
         versionName "3.0.1"
     }
     signingConfigs {

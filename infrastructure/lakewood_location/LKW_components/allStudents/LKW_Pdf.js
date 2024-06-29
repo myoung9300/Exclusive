@@ -41,18 +41,19 @@ const Pdf = ({ uri }) => {
 	};
 
 	return (
-		<SafeAreaView style={{ flex: 1, backgroundColor: COLORS.mediumGrey }}>
+		<View style={{ flex: 1, backgroundColor: COLORS.mediumGrey }}>
 			<WebView
 				style={{ flex: 1 }}
 				source={{ uri: pdfUrl }}
 				startInLoadingState={true}
+				pullToRefreshEnabled
 				renderLoading={() => <ActivityIndicator color="black" size="large" />}
 			/>
 			<View style={styles.btn}>
 				<Button title="Save PDF" onPress={savePdf} />
 				<Button title="Print PDF" onPress={printPdf} />
 			</View>
-		</SafeAreaView>
+		</View>
 	);
 };
 

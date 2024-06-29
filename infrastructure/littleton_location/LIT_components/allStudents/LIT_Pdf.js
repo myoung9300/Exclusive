@@ -41,7 +41,7 @@ const Pdf = ({ uri }) => {
 	};
 
 	return (
-		<SafeAreaView style={{ flex: 1, backgroundColor: COLORS.mediumGrey }}>
+		<View style={{ flex: 1, backgroundColor: COLORS.mediumGrey }}>
 			<WebView
 				style={{ flex: 1 }}
 				source={{ uri: pdfUrl }}
@@ -52,7 +52,7 @@ const Pdf = ({ uri }) => {
 				<Button title="Save PDF" onPress={savePdf} />
 				<Button title="Print PDF" onPress={printPdf} />
 			</View>
-		</SafeAreaView>
+		</View>
 	);
 };
 
